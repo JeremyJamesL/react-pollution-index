@@ -1,4 +1,3 @@
-import { toContainHTML } from "@testing-library/jest-dom/dist/matchers";
 import styles from "./PollutionData.module.scss";
 import Card from "./UI/Card";
 
