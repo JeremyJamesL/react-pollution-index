@@ -1,0 +1,10 @@
+@use "../../sass/Variables.scss" as var;
+
+.heading  {
+    text-align: center;
+
+    &__title {
+        color: var.$color-primary;
+    }
+
+}

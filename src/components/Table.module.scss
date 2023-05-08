@@ -1,0 +1,23 @@
+@use "../sass/Variables.scss" as vars;
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+
+    th {
+        padding: 5px;
+        background-color: #f0f0f0;
+        color: vars.$color-bg;
+    }
+
+    td {
+        border: 1px dashed vars.$color-bg-light;
+        padding: 20px;
+    }
+
+}

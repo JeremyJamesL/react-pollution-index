@@ -1,0 +1,13 @@
+@use "../../sass/Variables.scss" as vars;
+
+.btn {
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: vars.$color-white;
+    font-family: vars.$font-body;
+    background-color: vars.$color-primary;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}   
